@@ -12,3 +12,6 @@
     Cap 6 Aula 5 - colocar ícone na aba do site
     Cap 7 Aula 1 - hierarquia de títulos
     Cap 8 Aula 1 - semântica no html5 (tags obscoletas com funções que foram delegadas para css ou javascript)
+    Cap 8 Aula 2 - negrito e itálico
+20/11
+    Cap 8 Aula 3 - formatações adicionais
