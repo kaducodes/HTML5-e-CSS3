@@ -15,3 +15,5 @@
     Cap 8 Aula 2 - negrito e itálico
 20/11
     Cap 8 Aula 3 - formatações adicionais
+21/11
+    Cap 8 Aula 4 - formatações adicionais: citações, códigos, etc
