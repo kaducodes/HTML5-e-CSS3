@@ -17,3 +17,6 @@
     Cap 8 Aula 3 - formatações adicionais
 21/11
     Cap 8 Aula 4 - formatações adicionais: citações, códigos, etc
+10/12
+    Cap 9 Aula 1 - Listas (ordenadas, não ordenadas)
+    Cap 9 Aula 2 - Listas (mix de ordenadas e não ordenadas e de definição)
