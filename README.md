@@ -20,3 +20,6 @@
 10/12
     Cap 9 Aula 1 - Listas (ordenadas, não ordenadas)
     Cap 9 Aula 2 - Listas (mix de ordenadas e não ordenadas e de definição)
+12/12
+    Cap 10 Aula 1 - Links Externos - pesquisar SEO
+    Cap 10 Aula 2 - Links Internos
