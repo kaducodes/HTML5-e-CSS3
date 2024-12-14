@@ -23,3 +23,9 @@
 12/12
     Cap 10 Aula 1 - Links Externos - pesquisar SEO
     Cap 10 Aula 2 - Links Internos
+14/12
+    Cap 10 Aula 3 - Links de Downloads
+    Cap 10 Aula 4 - Desafios Propostos
+    Cap 11 Aula 1 - Imagens Dinâmicas (Criou 3 imagens no Gimp (p [300x300px], m [700x700px] e g [1000x1000px]))
+    Cap 11 Aula 2 - Imagens que se adaptam (cropam) sozinhas usando a tag source
+    Cap 11 Aula 3 - Colocando áudio no seu site
