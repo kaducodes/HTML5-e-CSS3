@@ -34,3 +34,8 @@
     Cap 11 Aula 6 - Vídeos do YouTube e Vimeo
     Cap 11 Aula 7 - Desafio: Site com vídeos
         comecei o desafio com um site com as bandas que já participei. fiz 50%
+15/12
+    conclui o desafio 7
+    Cap 12 Aula 1 - Estilos CSS inline
+    Cap 12 Aula 2 - Estilos CSS internos
+    Cap 12 Aula 3 - Estilos CSS externos
