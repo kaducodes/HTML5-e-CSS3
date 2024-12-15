@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <!--Os formatos mais usuais em sites são: mp4, m4v, webm, ogv-->
+    <!--limitação de 1080p no seu site para não encarecer com hospedagem-->
+    <p>
+        Esse vídeo está hospedado no meu próprio Servidor
+    </p>
+    <!--Dessa forma, o consumdo de banda pode ficar alto e consequentemente o custo alto para seu cliente-->
+    <video controls width="560" poster="images/pexels-edwardeyer-811838.jpg">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>
+            Seu navegador não tem compatibilidade com reprodução de vídeos.
+        </p>
+    </video>
+
+    <!--Dessa forma, o seu cliente economizará bastante. formatos de vídeos para o youtube: m4v-->    
+    <h1>Inserindo Vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=ujaJ4KTmafZwTYXa" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
+    <!--vimeo é tipo o youtube mas pode escolher se o vídeo fica livre ou privado. qualidade do vimeo é muito melhor, o codec não é tão boa-->
+    <h1>Inserindo Vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/260963363?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+    width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+    title="Cup Noodles - Cabelo"></iframe>
+</body>
+</html>
