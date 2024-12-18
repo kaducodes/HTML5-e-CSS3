@@ -39,3 +39,9 @@
     Cap 12 Aula 1 - Estilos CSS inline
     Cap 12 Aula 2 - Estilos CSS internos
     Cap 12 Aula 3 - Estilos CSS externos
+17/12
+    Conclusão do Módulo 1 do Curso em Vídeo - HTML5 e CSS3
+    Cap 13 Aula 0 - O que vamos aprender no módulo 2?
+    Cap 13 Aula 1 - Psicologia das cores (sempre que precisar de exemplos, voltar para esse vídeo)
+18/12
+    Cap 13 Aula 2 - Representando Cores no CSS3 (3 formas: rgb, hexadecimal, hsl)
