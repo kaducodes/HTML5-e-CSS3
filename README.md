@@ -45,3 +45,22 @@
     Cap 13 Aula 1 - Psicologia das cores (sempre que precisar de exemplos, voltar para esse vídeo)
 18/12
     Cap 13 Aula 2 - Representando Cores no CSS3 (3 formas: rgb, hexadecimal, hsl)
+    Cap 13 Aula 3 - Harmonia de Cores (círculo cromático)
+        - círculo primário
+            - cores primárias: amarelo, vermelho e azul (harmonia grosseira)
+            - cores secundárias: laranja, violeta e verde (harmonia grosseira)
+            - cores terciárias: todas as outras que são misturas das primárias e secundárias (configuração do nome: nome da cor primária e depois o nome da cor secundária modulado. ex.: vermelho alaranjado) (harmonia em tons pastéis)
+        - recomendação: 3 a 5 cores na paleta de um site (a principal, a secundária para contrastar bem com a principal, etc). desconsiderando branco e preto que sempre estarão.
+        - cores complementares: são as cores que mais contrastam entre si. o ideal é o extremo oposto do círculo cromático. ex.: azul e laranja, vermelho e verde, roxo e amarelo.
+        - cores análogas: não tem contraste tão grande entre elas mas são perceptíveis. são as cores ao lado no círculo cromático. 
+        ex.:
+        cor principal: violeta
+        cores análogas: roxo claro e roxo escuro
+        cor complementar: amarela
+        paleta de 4 cores escolhidas!
+        - cores análogas relacionadas: pega 2 cores principais, 1 do lado da outra. depois pula uma cor e pega a cor para ainda ter um certo contraste com uma certa analogia
+        - cores intercaladas: escolhe uma cor, pula 1 e escolhe a outra, depois pula a outra e escolhe a outra (essa paleta costuma ficar muito dura)
+            - cores triádicas: pega a principal, pula 3 e pega a outra cor. depois pula mais 3 e pega a outra cor. são simetricamente distribuídas no círculo cromático, formando um triângulo equilátero.
+            -cores em quadrado: pega a principal, pula 2 e pega a outra cor, pula 2 e pega a outra cor e pula 2 e pega a outra cor, formando um quadrado no círculo cromático. ideal quando quer usar cores fortes e bem balanceadas.
+            - cores tetrádicas: pega a principal, pega a complementar. escolhe outra cor e pega a complementar. 
+            - monocromia: pega uma cor e faz variações alterando saturação e luminosidade. gerando paleta bem simétrica e harmônica. basicamente um degradê.
