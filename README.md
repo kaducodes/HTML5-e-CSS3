@@ -64,3 +64,14 @@
             -cores em quadrado: pega a principal, pula 2 e pega a outra cor, pula 2 e pega a outra cor e pula 2 e pega a outra cor, formando um quadrado no círculo cromático. ideal quando quer usar cores fortes e bem balanceadas.
             - cores tetrádicas: pega a principal, pega a complementar. escolhe outra cor e pega a complementar. 
             - monocromia: pega uma cor e faz variações alterando saturação e luminosidade. gerando paleta bem simétrica e harmônica. basicamente um degradê.
+    19/12
+    Cap 13 Aula 4 - Paleta de cores 
+        ferramentas: 
+            color.adobe.com 
+            paletton.com
+            coolors.co 
+    26/12
+    Cap 13 Aula 5 - Capturar cores
+        - chrome web store: colorzilla
+    Cap 13 Aula 6 - como criar degradê com CSS?
+    Cap 13 Aula 7 - Criano um exemplo real de site
