@@ -64,14 +64,39 @@
             -cores em quadrado: pega a principal, pula 2 e pega a outra cor, pula 2 e pega a outra cor e pula 2 e pega a outra cor, formando um quadrado no círculo cromático. ideal quando quer usar cores fortes e bem balanceadas.
             - cores tetrádicas: pega a principal, pega a complementar. escolhe outra cor e pega a complementar. 
             - monocromia: pega uma cor e faz variações alterando saturação e luminosidade. gerando paleta bem simétrica e harmônica. basicamente um degradê.
-    19/12
+19/12
     Cap 13 Aula 4 - Paleta de cores 
         ferramentas: 
             color.adobe.com 
             paletton.com
             coolors.co 
-    26/12
+26/12
     Cap 13 Aula 5 - Capturar cores
         - chrome web store: colorzilla
     Cap 13 Aula 6 - como criar degradê com CSS?
     Cap 13 Aula 7 - Criano um exemplo real de site
+27/12
+    Cap 14 Aula 01 - Tipografia (um histórico)
+        boas imagens, cores e letras
+30/12
+    Cap 14 Aula 02 - Anatomia da Tipografia das letras
+        itens métricos:
+            corpo: altura-x, altura das maiúsculas, ascendente e descendente
+        itens geométricos:
+            serifa: pequeno tracinho que gera no final de algumas fontes
+                função: cria uma linha imaginária para facilitar a leitura das palavras
+            componentes anatômicos:
+                haste, filete, arco, esporão, vértice, terminal
+                perna, pé, espinha, barriga, olho, orelha e cauda
+            conjunto de glifos: fonte
+            famílias tipográficas: light, normal, seminegrito, negrito, extranegrito
+            categorias de fontes: times new roman, arial...
+                recomendação
+                - não serifadas: em textos muito longos em sites (e cores complementares: fundo branco, letra preta)
+                - serifadas: títulos
+                - monoespaçadas: 
+                - handwriting (scripts): 
+                - comemorativas (display): 
+    Cap 14 Aula 03 - Família de fonte com CSS
+
+
