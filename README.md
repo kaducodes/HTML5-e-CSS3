@@ -98,5 +98,10 @@
                 - handwriting (scripts): 
                 - comemorativas (display): 
     Cap 14 Aula 03 - Família de fonte com CSS
-
+    Cap 14 Aula 04 - Tamanho de fonte e suas medidas
+    Cap 14 Aula 05 - Peso, estilo e shorthand font
+    Cap 14 Aula 06 - Usando Google Fonts
+    Cap 14 Aula 07 - Usando fontes externas baixadas
+        - (https://www.dafont.com/pt/)
+        
 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+            /* fonte 'Work Sans' tem grande parte das possibilidades */ 
+            /*
+            Medidas Absolutas:
+            cm: centimetro
+            mm: milimetro
+            in: polegada (1in = 2,54cm)
+            px: pixel (recomendada pela w3c) (normalmente o font-size vem com 16px) (16px = 1em geralmente)
+            pt: ponto (medida do word)
+            pc: paica (medida da máquina de escrever)
+            
+            Medidas Relativas:
+            em: relativa a altura m maiúsculo de uma fonte (recomendada pela w3c) (16px = 1em geralmente)
+            ex: relativa a altura x de uma fonte
+            rem: em relativa ao root (fonte configurada no body)
+            vw: relativa à tela (view port)
+            vh: relativa à altura da tela (view port)
+
+            */
+            font-size: 1em;
+            font-weight: normal; /* negrito ou não */
+            font-style: italic; /* itálico ou não */ 
+            text-decoration: underline; /* sublinhado ou não */
+            /*
+            weight: peso (lighter normal bold bolder)
+            width: largura
+            height: altura
+            */
+        }
+
+        h1 {
+            /*
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans' sans-serif;
+            
+            declarando de forma simplificada
+            shorthand font:
+            font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>  
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing 
+        elit. Quam cum accusamus eveniet dolores amet at illo 
+        placeat non adipisci voluptas animi cupiditate, quia 
+        quisquam aperiam architecto sit fugiat maxime! 
+        Facere!
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing 
+        elit. Quam cum accusamus eveniet dolores amet at illo 
+        placeat non adipisci voluptas animi cupiditate, quia 
+        quisquam aperiam architecto sit fugiat maxime! 
+        Facere!
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing 
+        elit. Quam cum accusamus eveniet dolores amet at illo 
+        placeat non adipisci voluptas animi cupiditate, quia 
+        quisquam aperiam architecto sit fugiat maxime! 
+        Facere!
+    </p>
+</body>
+</html>
