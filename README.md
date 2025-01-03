@@ -103,5 +103,32 @@
     Cap 14 Aula 06 - Usando Google Fonts
     Cap 14 Aula 07 - Usando fontes externas baixadas
         - (https://www.dafont.com/pt/)
-        
+2025
+02/01
+    Cap 14 Aula 08 - Capturando as fontes usadas em um site
+        Extensão do Google Chrome: font ninja
+    Cap 14 Aula 09 - Detectando fontes dentro de imagens
+        Sites: whatfontis.com 
+               fontfinder.com (o melhor)
+               myfonts.com
+    Cap 14 Aula 10 - Alinhamento de textos com CSS 
+03/01
+    Cap 15 Aula 01 - Usando o id com CSS
+    Cap 15 Aula 02 - As diferenças entre id e class
+    Cap 15 Aula 03 - Pseudo-classes em CSS
+        Hover
+        Representação :
+        Definem estados de elementos dentro do HTML (ativo, escondido...)
+    Cap 15 Aula 04 - Pseudo-elementos em CSS
+        Consegue fazer com que coisas apareçam no texto antes ou depois, como por exemplo '[link]'
+        Representação ::
+        site para achar símbolos interessantes: https://erikasarti.com/html/dingbats-simbolos-desenhos/
+        Símbolos que vimos nesse Capítulo:
+        Seletores Personalizados
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+
 
