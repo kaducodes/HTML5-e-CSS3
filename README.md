@@ -130,5 +130,59 @@
             : = pseudo-class
             :: = pseudo-element
             > = children
+04/01
+    Cap 16 Aula 01 - Modelo de Caixas: primeiros passos
+        Atributos de uma caixa:
+            height: altura
+            width: largura
+            border: linha da borda
+            padding: espaço do conteúdo até a borda
+            margin: espaço externo da borda pra fora
+            outline: linha externa à borda, no margin
+
+        Tipos de Caixa
+            box-level: 
+                - sempre se inicia em uma linha nova;
+                - sempre ocupa a largura total da tela, 100% do viewport. 
+            inline-level:
+                - não quebra a linha.
+                - não ocupa a largura total da tela.
+            
+        Exemplos:
+            box-level
+                <div> 
+                <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+                <p>
+                <main>
+                <header>
+                <nav>
+                <article>
+                <aside>
+                <footer>
+                <form>
+                <video>
+
+            inline-level
+                <span>
+                <a>
+                <code>
+                <small>
+                <strong>
+                <em>
+                <sup>-<sub>
+                <label>
+                <button>
+                <input>
+                <select> 
+06/01
+    Cap 16 Aula 02 - Modelo de Caixas na prática (pt.1)
+        user-agent: navegador
+            - por padrão ele inicia sem padding, sem borda e com uma margin de 21.44 em cima e em baixo.
+            - saber como manipular o devtools
+07/01
+    Cap 16 Aula 03 - Modelo de Caixas na prática (pt.2)
+        content, padding, border, margin, outline
+    Cap 16 Aula 04 - Grouping Tags em HTML5
+        tags semânticas no lugar de divs para uma melhor organização do site
 
 

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(56, 54, 54);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            margin: auto;
+            text-align: center;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(116, 108, 108);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    Forma antiga de agrupar uma tag na outra:
+    <div>
+        <div id="cabecalho">
+            <h1>
+
+            </h1>
+            <div id="menu">
+
+            </div>
+        </div>
+        <div id="conteudo">
+
+        </div>
+        <div id="rodape">
+
+        </div>
+    </div>
+    Com a evolução do HTML veio uma maneira melhor, as tags semânticas, que funcionam como divs: 
+    -->
+    <header>        
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+        <h1>Meu site</h1>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte, Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo nisi eos sequi voluptate laborum culpa inventore distinctio accusamus, dolores aspernatur perferendis ad beatae. Excepturi dicta distinctio exercitationem dolores tempore sint!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+    </footer>
+</body>
+</html>
