@@ -184,5 +184,18 @@
         content, padding, border, margin, outline
     Cap 16 Aula 04 - Grouping Tags em HTML5
         tags semânticas no lugar de divs para uma melhor organização do site
+    Cap 16 Aula 05 - Sombra nas Caixas
+        box-shadow
+        dica no devtools com uma boa ferramenta de manipulação (voltar aqui se precisar)
+08/01
+    Cap 16 Aula 06 - Caixas com vértices arredondados
+        border-radius
+    Cap 16 Aula 07 - Bordas decoradas
+        border-image-source
+        border-image-slice
+        border-image-repeat
+    Cap 16 Aula 08 - DESAFIO do Módulo 2
+        Fazer quando tiver tempo.
+
 
 
