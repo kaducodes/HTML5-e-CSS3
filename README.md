@@ -202,6 +202,9 @@
 09/01
     Desafio 10
         trabalhei na estrutura com HTML
+10/01
+    Desafio 10
+        trabalhei na estilização com CSS
         
 
 
