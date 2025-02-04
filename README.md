@@ -205,6 +205,11 @@
 10/01
     Desafio 10
         trabalhei na estilização com CSS
+04/02
+    Cap 17 Aula 1
+        depois de fazer o curso da cisco dde python 1 e a imersão alura de front-end eu voltarei com as aulas
+        para repegar o fio da meada, irei assistir as aulas e ir vendo o que posso melhorar no que tinha feito
+        
         
 
 
