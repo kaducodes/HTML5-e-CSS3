@@ -209,6 +209,16 @@
     Cap 17 Aula 1
         depois de fazer o curso da cisco dde python 1 e a imersão alura de front-end eu voltarei com as aulas
         para repegar o fio da meada, irei assistir as aulas e ir vendo o que posso melhorar no que tinha feito
+07/02
+    Cap 17 Aula 2 - Navegando pelo projeto pronto
+    Cap 17 Aula 3 - Planejando a estrutura do seu site
+        guanabara usa:
+        estrutura do site: mockflow.com
+        fontes: google fonts e dafonts
+        cores: adobe colors
+    Cap 17 Aula 4 - Transformando o layout em código
+        arrumando o html
+
         
         
 
