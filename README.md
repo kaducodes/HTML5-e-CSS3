@@ -218,6 +218,14 @@
         cores: adobe colors
     Cap 17 Aula 4 - Transformando o layout em código
         arrumando o html
+10/02
+    Cap 17 Aula 5 - Organizando o conteúdo do site
+    Cap 17 Aula 6 - Variáveis em CSS
+        criação de configurações gerais no css. variáveis e retirada dos paddings e margins dos elementos
+    Cap 17 Aula 7 - Responsividade para sites
+        baixou no https://chromewebstore.google.com/?hl=pt-br uma extensão chamada Window Resize para visualizar mais facilmente o tamanho da página
+    Cap 17 Aula 8 - Responsividade na prática
+        
 
         
         
