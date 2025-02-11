@@ -225,6 +225,14 @@
     Cap 17 Aula 7 - Responsividade para sites
         baixou no https://chromewebstore.google.com/?hl=pt-br uma extensão chamada Window Resize para visualizar mais facilmente o tamanho da página
     Cap 17 Aula 8 - Responsividade na prática
+11/02
+    Cap 17 Aula 9 - Configurando o header e o menu do site
+    Cap 17 Aula 10 - Melhorando o formato do conteúdo (main p, h2, strong)
+    Cap 17 Aula 11 - Rodapé, conteúdo periférico e links
+        emojipedia.org
+    Cap 17 Aula 12 - Tornando um vídeo responsivo
+    Conclusão e Certificado emitido do Módulo 2 com 100% no teste
+    
         
 
         
