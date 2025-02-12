@@ -232,6 +232,36 @@
         emojipedia.org
     Cap 17 Aula 12 - Tornando um vídeo responsivo
     Conclusão e Certificado emitido do Módulo 2 com 100% no teste
+
+    MÓDULO 3
+    Cap 18 Aula 00 - O que vamos aprender no Módulo 3?
+        git e github
+        background-image
+        efeito paralax
+        tabelas
+        projeto cordel moderno
+        hospedar o projeto
+    Cap 18 Aula 1 - O que é Git e GitHub?
+12/02
+    Cap 18 Aula 2 - Instaland Git e GitHub no PC
+    Cap 18 Aula 3 - Criando conta no GitHub 
+    Cap 18 Aula 4 - Primeiro repositório git e GitHub 
+    Cap 18 Aula 5 - Gerenciando Repositórios GitHub 
+        (Todas essas aulas eu já tinha assistido anteriormente para aprender a usar o git e github, serviu para solidificar o que já venho fazendo)
+    Cap 18 Aula 6 - Hospedando site gratuitamente com GitHub Pages
+        - vai no site do github e deixa na pasta do site que você quer hospedar
+        - settings (aba de cima)
+        - pages (aba esquerda)
+        - marca "deploy from a branch"
+        - No "branch" muda de "none" para "main"
+        - não mexe na pasta /root que aparece e clica em "save"
+        - actions (aba de cima) e vai aparecer "pages build and deployment"
+        - clica no selo verde "check" quando finalizar
+        - clica em "pages build and deployment"
+        - clica em "deploy"
+
+    
+        
     
         
 
