@@ -1,6 +1,7 @@
 # HTML5 e CSS3
  Curso de HTML5 e CSS3 no Curso em Vídeo
 
+
 17/11 - primeiras aulas práticas assistidas e commitadas com sucesso! Cap 4 Aula 2 e Cap 5 Aula 1 
 18/11 - como colocar símbolos especiais, emojis, imagens, formatos de imagem no gimp e adicionando no html.
     Cap 5 Aula 2
@@ -259,6 +260,24 @@
         - clica no selo verde "check" quando finalizar
         - clica em "pages build and deployment"
         - clica em "deploy"
+        - seu site já está hospedado
+        dica extra: http://www.qr-code-generator.com
+    Cap 18 Aula 7 - Manutenção em sites hospedados no GitHub Pages
+    Cap 18 Aula 8 - Recursos Sociais do GitHub
+    Cap 18 Aula 9 - Clonando Repositórios GitHub
+    Cap 18 Aula 10 - GitHub em vários PCs 
+        - se quiser trabalhar no seu repositório em outro pc: 
+            github desktop - file - options - sign in (de cima) - loga e ele te mostra teus repositórios 
+                se não funcionar de primeira vai em file - options - git - save 
+        - se quiser remover do pc depois que você tiver dado push para o github:
+            github desktop - repository - remove (marca also move this repository to recycle bin) - remove 
+            file - options - sign out 
+            file - options - git - (apaga o nome) - (apaga o e-mail) - save 
+            esvaziar a lixeira do windows 
+    
+
+
+
 
     
         
