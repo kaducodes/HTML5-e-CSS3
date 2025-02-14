@@ -274,6 +274,15 @@
             file - options - sign out 
             file - options - git - (apaga o nome) - (apaga o e-mail) - save 
             esvaziar a lixeira do windows 
+13/02
+    Cap 19 Aula 2 - Colocando uma imagem de fundo no seu site 
+    Cap 19 Aula 3 - Imagens que se repetem no fundo do site
+    Cap 19 Aula 4 - Configurando a posição da imagem no fundo do site
+        onde a imagem de fundo ficará ancorada
+    Cap 19 Aula 5 - Mudando o tamanho da imagem de fundo do site
+        background-size: contain;
+        background-size: cover; --> mais indicado
+        
     
 
 
