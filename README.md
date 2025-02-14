@@ -282,7 +282,21 @@
     Cap 19 Aula 5 - Mudando o tamanho da imagem de fundo do site
         background-size: contain;
         background-size: cover; --> mais indicado
-        
+    Cap 19 Aula 6 - background-attachment e shorthand
+        background-attachment: scroll;
+        background-attachment: fixed;
+        Shorthand - background
+            color > image > position > repeat > [size] > attachment
+    Cap 19 Aula 7 - Centralização vertical de caixas
+        a div maior:
+        position: relative;
+        a div menor:
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    
+
     
 
 
