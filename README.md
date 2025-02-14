@@ -295,6 +295,12 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+14/02
+    Cap 20 Aula 1 - Um projeto completo usando HTML e CSS 
+    Cap 20 Aula 2 - Download e organização dos arquivos
+    Cap 20 Aula 3 - Ajustes do HTML do projeto
+    
+
     
 
     
