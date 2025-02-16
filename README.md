@@ -299,7 +299,10 @@
     Cap 20 Aula 1 - Um projeto completo usando HTML e CSS 
     Cap 20 Aula 2 - Download e organização dos arquivos
     Cap 20 Aula 3 - Ajustes do HTML do projeto
-    
+16/02
+    Cap 20 Aula 4 - Ajustes no CSS do projeto
+        font-variant: small-caps; -> transforma toda a fonte em letra maiúscula mas deixa as primeiras letras maiores
+        text-transform: uppercase; -> transforma todas as letras em maiúsculas
 
     
 
