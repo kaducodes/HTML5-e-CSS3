@@ -303,6 +303,16 @@
     Cap 20 Aula 4 - Ajustes no CSS do projeto
         font-variant: small-caps; -> transforma toda a fonte em letra maiúscula mas deixa as primeiras letras maiores
         text-transform: uppercase; -> transforma todas as letras em maiúsculas
+17/02
+    Cap 20 Aula 5 - Colocando as fontes ao projeto
+        fonts.google.com
+        fontes: passion one e sriracha
+        conceito de porcentagem no viewport em relação
+        - à altura: vh
+        - à largura: vw
+        aumenta em acordo com o tamanho da tela.
+        
+
 
     
 
