@@ -311,7 +311,12 @@
         - à altura: vh
         - à largura: vw
         aumenta em acordo com o tamanho da tela.
-        
+    Cap 20 Aula 6 - Imagens com efeito Parallax simples
+        background-attachment: fixed;
+    Cap 20 Aula 7 - Hospedando o projeto Cordel gratuitamente
+        Segue os passos nas anotações do Cap 18 Aula 6
+    
+    
 
 
     
