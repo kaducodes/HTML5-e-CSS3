@@ -315,6 +315,78 @@
         background-attachment: fixed;
     Cap 20 Aula 7 - Hospedando o projeto Cordel gratuitamente
         Segue os passos nas anotações do Cap 18 Aula 6
+18/02
+    Cap 21 Aula 1 - Ainda podemos usar tabelas em HTML?
+        - não se constroi mais estruturas de sites usando tabelas
+        - você pode precisar usar tabelas ainda, como o wikipedia usa
+    Cap 21 Aula 2 - Sua primeira tabela em HTML
+        <table>
+            <tr>
+                <td>
+    Cap 21 Aula 3 - Alinhando o conteúdo em tabelas
+        Alinhamento Horizontal
+            text-align:
+        Alinhamento Vertical
+            vertical-align:
+    Cap 21 Aula 4 - Aprendendo a trabalhar com tabelas grandes
+        Anatomia para Tabelas Grandes
+        Table
+            Caption
+            THead
+                tr, td, th
+            TBody
+                tr, td, th
+            TFoot
+                tr, td, th
+    Cap 21 Aula 5 - Caption e Escopo de títulos em tabelas
+        Caption
+        não causa nenhum resultado visual mas é muito útil para o google analisar os dados na busca
+            scope de th: col e row
+    Cap 21 Aula 6 - Efeito Zebrado na tabela com HTML e CSS
+        tr:nth-child(2n)
+        para ir colocando a propriedade especificada de 2 em e linhas
+        tr:nth-child(even)
+        coloca a propriedade apenas nas linhas pares
+        tr:nth-child(odd)
+        coloca a propriedade apenas nas linhas ímpares
+    Cap 21 Aula 7 - Cabeçalho fixo em tabelas grandes 
+        table tem que ter a propriedade position: relative
+        a th da tr da thead tem que ter as propriedades position: sticky e top: -1px
+    Cap 21 Aula 8 - Mesclagem de células
+        colspan="n": quantas colunas você quer que a célula ocupe
+        rowspan="n": quantas linhas você quer que a célula ocupe
+    Cap 21 Aula 9 - Desafios (Parte 1)
+    Cap 21 Aula 10 - Exemplo de tabela completa
+    Cap 21 Aula 11 - Escopos de grupo
+        os ths do exemplo: 
+        - 'Grupos' e 'Nomes' são colunas 
+        - 'Filmes' é grupos de colunas 
+        - 'Mulheres' e 'Homens' são grupo de linhas
+        - 'Total' é linha
+    Cap 21 Aula 12 - Desafios (Parte 2)
+    Cap 21 Aula 13 - Agrupando Colunas com colgroup
+        já aprendi como destacar células em linha inteira, mas como destacar colunas inteiras? 
+        <colgroup>
+            <col class="nome da classe">
+        adiciona tags col dentro da tag colgroup de acordo com o número de colunas existentes. 
+    Cap 21 Aula 14 - Tabelas responsivas
+        para resolver o problema de aparecer uma rolagem lateral por conta de uma tabela quando a tela fica menos larga, você:
+            - envelopa a table em uma div e dá um id
+            - chama esse id no css e seleciona a propriedade overflow-x: auto;
+        permitindo que surja um scroll apenas na tabela, não interferindo no conteúdo base do site.
+    
+    MÓDULO 4
+    Cap 22 Aula 1 - O iframe ainda pode ser usado?
+    
+
+
+
+
+    
+
+    
+
+
     
     
 
