@@ -425,6 +425,37 @@
             permite scripts
     Cap 22 Aula 8 - Dicas para iframes melhores
         ele deu exemplos de usos legais de iframes: youtube, vimeo, google maps, waze, google forms...
+20/02
+    Cap 23 Aula 1 - Criando um projeto do zero
+    Cap 23 Aula 2 - Vamos começar o projeto
+    Cap 23 Aula 3 - Criando a página inicial do projeto
+        - dividiu o site em 2 sections dentro do main (o celular e os ícones do lado)
+        - posicionou o celular no meio com aquela manha de responsividade 
+            - tornou o main relative, a section do celular absolute, top 50%, left 50% e transform: translate(-50%, -50%)
+    Cap 23 Aula 4 - Posicionando o conteúdo do site
+        - criação de arquivo home.html para referenciá-lo através do iframe no index.html (que será a tela do celular) e ajustes na tela através de
+            width: 100vw;
+            height: 100vh;
+            background: black url('imagens/tela-home.jpg') no-repeat top center;
+            background-size: cover;
+    Cap 23 Aula 5 - Criando os botões para redes sociais
+        - criação de links na section para as redes sociais
+        - criação de imagens das logos dentro dos links 
+            - arredondar imagens: border-radius: 50%;
+            - para a borda passar a fazer parte da caixa no novo formato: box-sizing: border-box;
+    Cap 23 Aula 6 - Criando as páginas de cada rede social
+        - para esconder a barra de rolagem:
+            ::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+    Cap 23 Aula 7 - Personalizando as imagens do projeto
+        - tira prints no celular
+        - manda pro pc 
+        - abre o gimp 
+            - se precisar algum dia fazer isso, volta nesse vídeo 
+    
+
     
 
 
