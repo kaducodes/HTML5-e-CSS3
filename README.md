@@ -1,6 +1,8 @@
 # HTML5 e CSS3
  Curso de HTML5 e CSS3 no Curso em Vídeo
 
+<a href="html-css/desafios/desafio009/index.html">kadu oliveira: early bands</a>
+
 
 17/11 - primeiras aulas práticas assistidas e commitadas com sucesso! Cap 4 Aula 2 e Cap 5 Aula 1 
 18/11 - como colocar símbolos especiais, emojis, imagens, formatos de imagem no gimp e adicionando no html.
@@ -377,7 +379,56 @@
     
     MÓDULO 4
     Cap 22 Aula 1 - O iframe ainda pode ser usado?
+19/02
+    Cap 22 Aula 2 - Configurando iframes
+        você pode colocar uma tag a dentro da tag iframe para caso o navegador não seja compatível com o iframe aparecer a tag a
+
+        um iframe tem 300px x 150px por padrão.
+        você pode mudar com as propriedades height e width
+        se você declarar na css é o que tem preferência.
+
+        frameborder
+            - 0: sem borda 
+            - qualquer outro número: com borda
+    Cap 22 Aula 3 - Conteúdo local no iframe 
+        o iframe é inline, para poder fazer valer o 'margin: auto' para deixar ele no eixo da tela responsivamente, você tem que usar o comando 'display: block' para transformar ele em um bloco.
+
+        é melhor aplicar em tabelas a técnica anterior (colocar dentro de uma div) e não o iframe.
+    Cap 22 Aula 4 - Navegação no iframe
+        deixar iframes vazios sem src
+        colocar links para páginas do projeto (ou na internet) e carregar no iframe
+            dando um nome com a propriedade name na tag do iframe
+                <iframe name="frame" src="" frameborder="1">
+            e fazendo o target do link ser para 
+                <li><a href="paginas-extras/pagina001.html" target="frame">
+    Cap 22 Aula 5 - Conteúdo no iframe por código
+        parâmetro 'srcdoc' e pode literalmente escrever um html dentro do parâmetro
+    Cap 22 Aula 6 - Inconvenientes do iframe
+        - o googlebot pode não indexar conteúdos internos a um iframe, portanto evitar conteúdo sensível
+        - acessibilidade e usabilidade ficam prejudicadas
+        - falta de segurança: os iframes acabam abrindo as portas do seu site para outros sites. ficando vulneráveis a ataques cross-sites e xss.
+    Cap 22 Aula 7 - Tornando iframes mais seguros
+        sandbox="sandbox"
+            liga todas as configurações de segurança do parâmetro.
+            dentro da tag do iframe você coloca esse parâmetro, que bloqueia todo o acesso que outros sites que estejam dentro do iframe queiram fazer. cria proteção contra ataques.
+
+        referrerpolicy="no-referrer"
+            dentro da tag do iframe você coloca esse parâmetro, dizendo que o conteúdo que está carregado dentro do iframe não irá coletar nenhum tipo de dado do usuário.
+
+        sandbox="allow-same-origin"
+            permite que o iframe colete dados caso o site esteja no mesmo servidor que o seu principal
+
+        sandbox="allow-forms"
+            permite formulários
+
+        sandbox="allow-scripts"
+            permite scripts
+    Cap 22 Aula 8 - Dicas para iframes melhores
+        ele deu exemplos de usos legais de iframes: youtube, vimeo, google maps, waze, google forms...
     
+
+
+
 
 
 
