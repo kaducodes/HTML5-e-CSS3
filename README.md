@@ -454,7 +454,46 @@
         - manda pro pc 
         - abre o gimp 
             - se precisar algum dia fazer isso, volta nesse vídeo 
+21/02
+    Cap 24 Aula 1 - Como criar formulários com HTML5
+        <form>
+        <input>
+    Cap 24 Aula 2 - Usar Label vai melhorar seus formulários
+        <label> 
+        - se não quiser que os inputs sejam auto completados, usar: autocomplete="off"
+        - name é para php, id é para javascript
+        - no for do label referenciar o id do input com um 'i' na frente: id="nome" --> for="inome"
+    Cap 24 Aula 3 - Métodos GET e POST para formulários
+        method="get" --> é o método padrão! ele mostra o usuário na url
+            pode utilizar para dados não sensíveis (nome, busca...)
+            se você quiser que o link seja compartilhado
+            limite: 3000bytes
+        method="post" --> para não aparecer o query na url
+            recomendado utilizar para dados sensíveis (cpf, endereço, senha (https), fotos, arquivos, número...)
+            - você consegue enxergar na insperção > networl > headers do arquivo relacionado.
+    Cap 24 Aula 4 - Criando caixas de texto e de senha
+        - required: quando o campo tem que ser preenchido
+        - para o mínimo e máximo do tamanho de letras do campo: minlength="5" maxlength="15"
+        - size: tamanho da caixa
+        - placeholder: uma escrita dentro do campo para guiar o usuário
+        - autocomplete: é bom ligar na tag form e também em cada tag input do formulário
+    Cap 24 Aula 5 - Elementos number, month, date e time em formulários HTML
+        - min e max: para inputs de tipos numéricos
+    Cap 24 Aula 6 - Compatibilidade com navegadores
+        - nem todos os navegadores são compatíveis com as funcionalidades
+    Cap 24 Aula 7 - Formulários com telefone e e-mail
+        - estudar expressões regulares ou RegEx 
+            pattern="^[0-9]{4}-[0-9]{4}$": esse exemplo faz com que o campo só aceite telefone nesse formato xxxx-xxxx
+        - fieldset: agrupa os campos
+        - legend: dá uma legenda para o agrupamento
+    Cap 24 Aula 8 - Checkbox e Radio button em HTML
+        input:checkbox
+        input:radio
+        - nos botões de radio, se você quiser que só tenha uma opção marcável, tem que dar o mesmo 'name'
+        - é bom colocar um value para o valor ir para a url, tanto no checkbox quanto no radio
+
     
+
 
     
 
