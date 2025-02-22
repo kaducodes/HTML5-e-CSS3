@@ -491,6 +491,28 @@
         input:radio
         - nos botões de radio, se você quiser que só tenha uma opção marcável, tem que dar o mesmo 'name'
         - é bom colocar um value para o valor ir para a url, tanto no checkbox quanto no radio
+    Cap 24 Aula 9 - Elementos color, range e file em HTML
+        input:color
+        input:range
+        input:file
+            - quando utilizar esse tipo de controle, tem que usar o método post, e não o get
+    Cap 24 Aula 10 - Select, datalist e textarea em HTML
+        <select>
+            <optgroup>
+                <option>
+            - quando quer escolher apenas entre as opções programadas
+
+        <datalist>
+            <option>
+            - quando quer escolher entre as opções programadas ou escrever a profissão
+
+        <textarea>
+            - quando o usuário tem que escrever algo.
+            - ideal utilizar o método post pois o método get tem a limitação de 3000b
+    Cap 24 Aula 11 - Elemento output em formulários HTML
+        - para já ir somando automaticamente sem precisar apertar um botão para mostrar na tela, colocar esse script na tag dos inputs: oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)"
+        - o output só mostra a soma na tela, não manda nada via web
+    
 
     
 
