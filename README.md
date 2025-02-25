@@ -512,7 +512,61 @@
     Cap 24 Aula 11 - Elemento output em formulários HTML
         - para já ir somando automaticamente sem precisar apertar um botão para mostrar na tela, colocar esse script na tag dos inputs: oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)"
         - o output só mostra a soma na tela, não manda nada via web
+22/02
+    Cap 25 Aula 1 - O que são Media Queries em CSS 
+24/02
+    Cap 25 Aula 2 - Criando um site com versão para impressora
+        media types
+            media="screen"
+            media="print"
+    Cap 25 Aula 3 - Múltiplas Media Features com CSS
+        media types
+            media="all"
+        media features: se combinam com as media types para completar as media queries
+            media="screen and (orientation: portrait)"
+            media="screen and (orientation: landscape)"
+    Cap 25 Aula 4 - Seguindo a orientação do dispositivo
+        interessante usar em posicionamentos de imagens:
+            portrait (retrato):
+                background-position: center bottom;
+            landscape (paisagem):
+                background-position: left bottom;
+    Cap 25 Aula 5 - Reunindo tudo em um único CSS
+        usado em projetos bem menores
+    Cap 25 Aula 6 - Mobile First
+        Abordagem em que você desenvolve primeiro para o dispositivo móvel, pensa a versão para telas maiores.
+        Vantagens: 
+            - Facilidade na divulgação do site
+            - O algoritmo do Google valoriza esse tipo de desenvolvimento nos mecanismos de busca
+            - Melhoria na UX (Experiência do Usuário)
+            - Aumento de credibilidade. 
+            - Performance. Sites móveis têm que ser mais leves pois em grande parte das vezes são acessadas de conexões precárias.  
+
+        Imagens baixadas do site pexels.com
+    Cap 25 Aula 7 - Iniciando um site mobile first
+    Cap 25 Aula 8 - Device breakpoints
+        Tipycal Device Breakpoints (na época de gravação do vídeo):
+        ------------------------------
+        Pequenas Telas: até 600px
+        Celular: 600px até 768px
+        Tablet: 768px até 992px
+        Desktop: 992px até 1200px
+        TV: acima de 1200px
+
+        Tipycal Device Breakpoints (mais atualizadas, de 2024):
+        ------------------------------
+        Pequenos Dispositivos (Mobile e Smartphones): até 640px
+        Médios Dispositivos (Tablets): 640px até 1023px
+        Grandes Dispositivos (Notebooks): 1024px até 1279px
+        Extra Grandes Dispositivos (Desktops): 1280px até 1535px
+        Ultra Grandes Dispositivos (TVs e Monitores 4k): acima de 1536px
+    Cap 25 Aula 9 - Menu responsivo com HTML5 e CSS3
+    Cap 25 Aula 10 - Configurando o layout do projeto
+    Cap 25 Aula 11 - Criando um menu hambúrguer
+        google icons: https://fonts.google.com/icons
+    Cap 25 Aula 12 - Media Queries para outros dispositivos
     
+
 
     
 
