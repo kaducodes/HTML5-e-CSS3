@@ -613,7 +613,34 @@
             - column-reverse: filhos na vertical de baixo para cima
                 - main axis: main-start / main-end (eixo vertical de baixo para cima)
                 - cross-axis: cross-start / cross-end (eixo horizontal da esquerda para direita)
-    
+26/02
+    Cap 27 Aula 4 - Empacotamento e fluxo no Flexbox CSS
+        flex-wrap
+            - nowrap (padrão): não quebra os conteúdos, não tira da sequência ordenada. o encolhimento dos itens dentro de um flexbox vai depender do conteúdo dentro deles
+            - wrap: quebra o item quando a caixa pai diminui, no sentido do cross-axis. o elemento vai indo pra baixo caso os itens estejam em row, e para o lado caso os itens estejam em column.
+            - wrap-reverse: quebra o item quando a caixa pai diminui, no sentido oposto ao cross-axis.
+        flex-flow = flex-direction + flex-wrap (shorthand)
+        exemplo de declaração: 
+            flex-flow: row nowrap;
+        obs.: a declaração 'flex: auto;' no filho faz com que, somente quando não couber mais o conteúdo dentro do filho com a dimuição do pai, ele quebre e vá para a linha transversal configurada ocupando todo o espaço reservado pelo pai. quando não declara flex: auto fica um espaço vazio, o que fazer com esse espaço vazio?
+    Cap 27 Aula 5 - Alinhamento nos eixos Flexbox
+        flex-container: o pai vai ditar o comportamento dos filhos, e as 2 propriedades são declaradas dentro do container pai também
+            justify-content: faz o alinhamento em relação ao main-axis (eixo principal)
+                - flex-start (padrão): faz com que o filho fique grudado no main-start, e o espaço em branco fique no main-end
+                - flex-end: faz com que o filho fique grudado no main-end, e o espaço em branco fique no main-start
+                - center: todos os itens juntos no centro do main-axis
+                - space-between: posiciona um filho colado ao main-start e outro colado ao main-end e os demais no meio com espaçamento igual entre eles
+                - space-evenly: deixa todos os filhos com o mesmo espaçamento entre eles, incluindo o espaço do filho até o main-start e do filho na outra ponta em relação ao main-end
+                - space-around: cria espaços iguais dentr do pai e posiciona os filhos dentro desses espaçoss
+            align-items: faz o alinhamento em relação ao cross-axis (eixo transversal)
+                - stretch: estica os elementos do cross-start até o cross-end
+                - flex-start: gruda os filhos no cross-start
+                - flex-end: gruda os filhos no cross-end
+                - center: posiciona os filhos no eixo do cross-axis
+    Cap 27 Aula 6 - Centralização absoluta com Flexbox
+        flex-container
+        dica: não colocar o body como pai, sempre escolha outra tag como pai, por exemplo, a main
+        
         
 
 
