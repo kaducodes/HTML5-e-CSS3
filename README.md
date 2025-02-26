@@ -565,6 +565,59 @@
     Cap 25 Aula 11 - Criando um menu hambúrguer
         google icons: https://fonts.google.com/icons
     Cap 25 Aula 12 - Media Queries para outros dispositivos
+25/02
+    Cap 26 Aula 1 - Tela de login responsiva só com HTML e CSS
+    Cap 26 Aula 2 - Versão mobile first da tela de login
+        position da tela maior: relative
+        position da tela menor: absolute 
+        top: 50% left: 50%
+        transform: translate(-50%, -50%)
+        coloca a imagem no css, escolhe uma altura, diz para o background-size ser cover e para obedecer mais ainda a ideia das bordas da tag maior, coloca na tag maior um overflow: hidden
+    Cap 26 Aula 3 - Outras Media Queries para o projeto
+    Cap 26 Aula 4 - Criando o formulário de login 
+        posicionamento de imagens e divs em geral: float: left or right
+    Cap 26 Aula 5 - Aplicando estilo ao formulário de login 
+    Cap 26 Aula 6 - Finalizando projeto tela de login 
+        você sabia que a CSS faz cálculo?
+            width: calc(100% - 46px)
+            usando como referência 100% da largura da div menos 46px de um ícone que já ocupava um espaço.
+        :hover
+            faz a declaração quando passa o mouse por cima
+        :focus-within
+            faz a declaração quando clica
+        --- se tiver um transform ou transition para fazer, sempre posicione na última linha do seu seletor 
+            ex.: transform: translateY(-12px)
+
+    MÓDULO 5
+    Cap 27 Aula 1 - O que vamos aprender no módulo 5?
+        Flexbox 
+        Grid Layout
+        Projeto Final (Portfolio)
+    Cap 27 Aula 2 - Primeiros passos com Flexbox CSS 
+        caixa pai (contêiner): display: flex;
+        caixa filha: flex: auto;
+        resultado: as caixas filhas reduzirão proporcionalmente à caixa pai
+        a propriedade stretch é ligada por padrão, ou seja, as caixas filhas esticam ou encolhem de acordo com a caixa pai
+    Cap 27 Aula 3 - Direções e Eixos Flexbox CSS
+        após a identificação do conteiner pai através do display: flex; configura-se direções e eixos nele
+        - flex-direction e axis (eixos)
+            - row (padrão): filhos em linha da direita para esquerda
+                - main axis: main-start / main-end (eixo horizontal da esquerda para direita)
+                - cross-axis: cross-start / cross-end (eixo vertical de cima para baixo)
+            - row-reverse: filhos em linha da esquerda para direita
+                - main axis: main-start / main-end (eixo horizontal da direita para esquerda)
+                - cross-axis: cross-start / cross-end (eixo vertical de cima para baixo)
+            - column: filhos na vertical de cima para baixo
+                - main axis: main-start / main-end (eixo vertical de cima para baixo)
+                - cross-axis: cross-start / cross-end (eixo horizontal da esquerda para direita)
+            - column-reverse: filhos na vertical de baixo para cima
+                - main axis: main-start / main-end (eixo vertical de baixo para cima)
+                - cross-axis: cross-start / cross-end (eixo horizontal da esquerda para direita)
+    
+        
+
+
+    
     
 
 
