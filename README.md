@@ -599,6 +599,7 @@
         resultado: as caixas filhas reduzirão proporcionalmente à caixa pai
         a propriedade stretch é ligada por padrão, ou seja, as caixas filhas esticam ou encolhem de acordo com a caixa pai
     Cap 27 Aula 3 - Direções e Eixos Flexbox CSS
+        propriedade do pai (flex-container)
         após a identificação do conteiner pai através do display: flex; configura-se direções e eixos nele
         - flex-direction e axis (eixos)
             - row (padrão): filhos em linha da direita para esquerda
@@ -615,6 +616,7 @@
                 - cross-axis: cross-start / cross-end (eixo horizontal da esquerda para direita)
 26/02
     Cap 27 Aula 4 - Empacotamento e fluxo no Flexbox CSS
+        propriedade do pai (flex-container)
         flex-wrap
             - nowrap (padrão): não quebra os conteúdos, não tira da sequência ordenada. o encolhimento dos itens dentro de um flexbox vai depender do conteúdo dentro deles
             - wrap: quebra o item quando a caixa pai diminui, no sentido do cross-axis. o elemento vai indo pra baixo caso os itens estejam em row, e para o lado caso os itens estejam em column.
@@ -624,6 +626,7 @@
             flex-flow: row nowrap;
         obs.: a declaração 'flex: auto;' no filho faz com que, somente quando não couber mais o conteúdo dentro do filho com a dimuição do pai, ele quebre e vá para a linha transversal configurada ocupando todo o espaço reservado pelo pai. quando não declara flex: auto fica um espaço vazio, o que fazer com esse espaço vazio?
     Cap 27 Aula 5 - Alinhamento nos eixos Flexbox
+        propriedade do pai (flex-container)
         flex-container: o pai vai ditar o comportamento dos filhos, e as 2 propriedades são declaradas dentro do container pai também
             justify-content: faz o alinhamento em relação ao main-axis (eixo principal)
                 - flex-start (padrão): faz com que o filho fique grudado no main-start, e o espaço em branco fique no main-end
@@ -631,16 +634,55 @@
                 - center: todos os itens juntos no centro do main-axis
                 - space-between: posiciona um filho colado ao main-start e outro colado ao main-end e os demais no meio com espaçamento igual entre eles
                 - space-evenly: deixa todos os filhos com o mesmo espaçamento entre eles, incluindo o espaço do filho até o main-start e do filho na outra ponta em relação ao main-end
-                - space-around: cria espaços iguais dentr do pai e posiciona os filhos dentro desses espaçoss
+                - space-around: cria espaços iguais dentro do pai e posiciona os filhos dentro desses espaços
             align-items: faz o alinhamento em relação ao cross-axis (eixo transversal)
                 - stretch: estica os elementos do cross-start até o cross-end
                 - flex-start: gruda os filhos no cross-start
                 - flex-end: gruda os filhos no cross-end
                 - center: posiciona os filhos no eixo do cross-axis
     Cap 27 Aula 6 - Centralização absoluta com Flexbox
-        flex-container
+        propriedade do pai (flex-container)
         dica: não colocar o body como pai, sempre escolha outra tag como pai, por exemplo, a main
+    Cap 27 Aula 7 - Alinhamento de elementos empacotados no Flexbox
+        propriedade do pai (flex-container)
+        align-content: alinha os filhos no main-axis (eixo principal) quando estão com wrap ligado (empacotados)
+            - stretch (padrão): pega todos os filhos e estica da mesma forma quando quebrados
+            - flex-start: deixa todos os filhos mais perto do cross-start. como se não tivéssemos declarado o align-content
+            - flex-end: deixa todos os filhos mais perto do cross-end. 
+            - center: deixa os filhos alinhados no meio do pai
+            - space-between: distribui os filhos nas extremidades (cross-start e cross-end) e reserva o espaço no meio para o que sobrar, inclusive se não tiver nenhum sobrando
+            - space-evenly: cria um espaço igual antes (cross-start), no meio e depois (cross-end) dos filhos
+            -space-around: cria espaços iguais dentro do pai entre o cross-start e o cross-end e posiciona os filhos dentro desses espaços 
+    Cap 27 Aula 8 - Anatomia dos itens Flexbox
+        propriedade do filho (flex-item)
+        os items não são flexíveis por padrão
+        - order:
+            serve para escolher a ordem que os filhos aparecem
+            - 0 (padrão)
+            - qualquer número: você dá o número ao item e o css organiza automaticamente em ordem crescente 
+        - align-self     
+            se aplica aos items e referencia o cross-axis (eixo transversal) do pai
+            - auto: herdar a característica do alinhamento vertical do pai. o que tiver declarado em align-items no pai, essa declaração no filho quer dizer que vai herdar. lembrando que se não declarar align-items nenhum no pai o padrão é stretch.
+            - flex-start: alinhamento ao cross-start
+            - flex-end: alinhamento ao cross-end
+            - center: alinhamento ao centro
+            - stretch: estica o elemento para ocupar o cross-axis do pai inteiro
+    Cap 27 Aula 9 - Propriedade flex-basis em Flexbox
+        propriedade do filho (flex-item)
+        flex-basis
+            - auto (padrão): tamanho do item é ditada pelo tamanho do seu conteúdo
+            - escolher um tamanho, por exemplo flex-basis: 200px, todos os items terão 200px. caso o pai diminua tanto que não tenha mais espaço para todos os filhos tenham 200px, eles irão diminuindo igualmente
+    Cap 27 Aula 10 - Controle do tamanho de itens flexíveis
+        propriedades do filho (flex-item)
+        elasticidade dos items, para eles crescerem e diminuirem junto com o container
+        flex-grow
+            - 1: pode crescer
+            - 0 (padrão): pode não crescer
+        flex-shrink  
+            - 1 (padrão): pode encolher 
+            - 0: não pode encolher
         
+
         
 
 
