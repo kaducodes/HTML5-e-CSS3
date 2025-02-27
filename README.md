@@ -701,7 +701,12 @@
                 ex.:
                 flex: 3 é a mesma coisa de:
                 flex: 3 1 auto
-            
+    Cap 27 Aula 12 - Criando um menu com Flexbox (parte 1)
+    Cap 27 Aula 13 - Criando um menu com Flexbox (parte 2)
+        dica: para saber como as caixas estão se comportando, equanto você desenvolve você pode declarar o seguinte para poder visualizar:
+            border: 1px dotted #000000  
+    Cap 27 Aula 14 - Menu Responsivo com Flexbox e Media Queries na Prática
+                  
 
 
 
