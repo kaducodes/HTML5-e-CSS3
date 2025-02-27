@@ -681,7 +681,29 @@
         flex-shrink  
             - 1 (padrão): pode encolher 
             - 0: não pode encolher
-        
+27/02
+    Cap 27 Aula 11 - A propriedade flex
+        propriedade do filho (flex-item)
+        flex
+            basicamente uma shorthand entre
+            flex = flex-grow + flex-shrink + flex-basis
+            ex.: flex: 0 1 150px;
+            - flex: 0 1 auto (padrão) ou
+              flex: initial (padrão)
+            - flex: 0 0 auto ou
+              flex: none
+                configuração rígida. deixar os filhos não flexíveis com o tamanho dependendo do pai
+            - flex: 1 1 auto ou
+              flex: auto
+                configuração flexível. deixando os filhos bastante flexíveis.
+            - flex: (qualquer valor) 
+                só especifica o valor de grow
+                ex.:
+                flex: 3 é a mesma coisa de:
+                flex: 3 1 auto
+            
+
+
 
         
 
